@@ -20,6 +20,7 @@ def sum_adj(l):
     return max(odd, even)
 
 
-print(sum_adj([2, 4, 6, 2, 5]))  # 13
-print(sum_adj([0, 1, 4, 5, 0, -2, 4, 1]))  # 10
-print(sum_adj([1, 2, 1, 2, 1, 2,  50, 2]))  # 54
+if __name__ == '__main__':
+    print(sum_adj([2, 4, 6, 2, 5]))  # 13
+    print(sum_adj([0, 1, 4, 5, 0, -2, 4, 1]))  # 10
+    print(sum_adj([1, 2, 1, 2, 1, 2,  50, 2]))  # 54
